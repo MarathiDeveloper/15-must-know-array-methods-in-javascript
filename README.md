@@ -98,9 +98,8 @@ const phones = [
 
 ## some()
 
-The some() method executes the function once for each array element:
 <details><summary><b>Answer</b></summary>
-
+ The some() method executes the function once for each array element:
 ```javascript
   
 const phones = [
@@ -128,9 +127,8 @@ const phones = [
 
 ## every()
 
-The every() method returns true if the function returns true for all elements.
 <details><summary><b>Answer</b></summary>
-
+The every() method returns true if the function returns true for all elements.
 ```javascript
   
 const phones = [
