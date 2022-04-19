@@ -99,7 +99,9 @@ const phones = [
 ## some()
 
 <details><summary><b>Answer</b></summary>
+  
  The some() method executes the function once for each array element:
+  
 ```javascript
   
 const phones = [
@@ -128,7 +130,9 @@ const phones = [
 ## every()
 
 <details><summary><b>Answer</b></summary>
+  
 The every() method returns true if the function returns true for all elements.
+  
 ```javascript
   
 const phones = [
@@ -157,7 +161,9 @@ const phones = [
 ## find()
 
 <details><summary><b>Answer</b></summary>
+  
 The find() method returns the value of the first element that passes a test.
+  
 ```javascript
   
 const phones = [
@@ -186,7 +192,9 @@ const phones = [
 ## includes()
 
 <details><summary><b>Answer</b></summary>
+  
 The includes() method returns true if an array contains a specified value.
+  
 ```javascript
   
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
