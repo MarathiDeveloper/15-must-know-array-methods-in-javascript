@@ -33,6 +33,7 @@ const phones = [
  ``` 
 </details>
 
+
 ## JavaScript Array map()
 
 <details><summary><b>Answer</b></summary>
@@ -62,6 +63,7 @@ const phones = [
   
  ``` 
 </details>
+
 
 ## JavaScript Array filter()
 
@@ -93,6 +95,7 @@ const phones = [
   { brand: 'Nokia', price: 1500 } ]
 ``` 
 </details>
+
 ## JavaScript Array some()
 
 <details><summary><b>Answer</b></summary>
@@ -121,6 +124,7 @@ const phones = [
    true
 ``` 
 </details>
+
 ## JavaScript Array every()
 
 <details><summary><b>Answer</b></summary>
