@@ -153,3 +153,48 @@ const phones = [
    false
 ``` 
 </details>
+
+## find()
+
+<details><summary><b>Answer</b></summary>
+The find() method returns the value of the first element that passes a test.
+```javascript
+  
+const phones = [
+  {brand : 'Apple' , price : 1000},
+  {brand : 'Samsung' , price : 800},
+  {brand : 'OnePlus' , price : 400},
+  {brand : 'LG' , price : 1200},
+  {brand : 'Xiami' , price : 300},
+  {brand : 'Realme' , price : 600},
+  {brand : 'Nokia' , price : 1500}
+ ];
+
+  const NewPhonesArray = phones.find((phone) => {
+      
+     return phone.price > 300;
+  
+  });
+  
+  console.log(NewPhonesArray);
+  
+  //output
+   { brand: 'Apple', price: 1000 }
+``` 
+</details>
+
+## includes()
+
+<details><summary><b>Answer</b></summary>
+The includes() method returns true if an array contains a specified value.
+```javascript
+  
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  
+console.log(fruits.includes("Mango"));
+  
+  //output
+   true
+``` 
+</details>
+
