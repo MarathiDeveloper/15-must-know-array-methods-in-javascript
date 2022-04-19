@@ -301,3 +301,39 @@ console.log(arr)
 ``` 
 </details>
 
+## unshift()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let arr = [10,20,30]
+
+let size = arr.unshift(5)
+
+console.log(size)
+console.log(arr)
+  //output
+   4
+  [ 5,10,20,30]
+``` 
+</details>
+
+## shift()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let arr = [10,20,30]
+
+let size = arr.shift()
+
+console.log(size)
+console.log(arr)
+  //output
+   10
+  [ 20,30]
+``` 
+</details>
+
