@@ -1,36 +1,32 @@
 # Javascript मध्ये हे 15 functions आलेच पाहीजेत.
 
-## Question 3. What is the drawback of declaring methods directly in JavaScript objects?
+## JavaScript Array forEach()
 
 <details><summary><b>Answer</b></summary>
 
-One of the drawbacks of declaring methods directly in JavaScript objects is that they are very memory inefficient.  When you do that, a new copy of the method is created for each instance of an object. Here's an example:
+The forEach() method calls a function for each element in an array.example:
 
 ```javascript
-var Employee = function (name, company, salary) {
-  this.name = name || "";       
-  this.company = company || "";
-  this.salary = salary || 5000;
+const phones = [
+  {brand : 'Apple' , price : 1000},
+  {brand : 'Samsung' , price : 800},
+  {brand : 'OnePlus' , price : 400},
+  {brand : 'LG' , price : 1200},
+  {brand : 'Xiami' , price : 300},
+  {brand : 'Realme' , price : 600},
+  {brand : 'Nokia' , price : 1500}
+ ];
 
-  // We can create a method like this:
-  this.formatSalary = function () {
-      return "$ " + this.salary;
-  };
-};
+  const phonesArray = phones.forEach((phone) => {
+      
+     console.log(`phone.brand phone.price `)
+  
+  });
+console.log(phonesArray)
 
-// Alternatively we can add the method to Employee's prototype:
-Employee.prototype.formatSalary2 = function() {
-    return "$ " + this.salary;
-}
-
-//creating objects
-var emp1 = new Employee('Yuri Garagin', 'Company 1', 1000000);
-var emp2 = new Employee('Dinesh Gupta', 'Company 2', 1039999);
-var emp3 = new Employee('Erich Fromm', 'Company 3', 1299483);
-```
-
-In this case each instance variable `emp1`, `emp2`, `emp3` has its own copy of the`formatSalary` method. However the `formatSalary2` will only be added once to `Employee.prototype`.
-
+ // style 2
+ phones.forEach((element, index) => { console.log(element) })
+ ``` 
 </details>
 
 ## Question 4. What is “closure” in javascript? Can you provide an example?
