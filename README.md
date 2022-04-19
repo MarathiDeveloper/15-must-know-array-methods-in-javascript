@@ -206,3 +206,42 @@ console.log(fruits.includes("Mango"));
 ``` 
 </details>
 
+## slice()
+
+<details><summary><b>Answer</b></summary>
+  
+The slice() method returns selected elements in an array, as a new array.
+  
+```javascript
+  
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+  
+const sliceArray = fruits.slice(1, 3);
+
+console.log(sliceArray)
+  
+  //output
+   [ 'Orange', 'Lemon' ]
+``` 
+</details>
+
+## splice()
+
+<details><summary><b>Answer</b></summary>
+  
+The splice() method adds and/or removes array elements.
+
+The splice() method overwrites the original array.
+  
+```javascript
+  
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+// At position 2, remove 2 items: 
+const NewArr = fruits.splice(2, 2);
+
+console.log(NewArr)
+  //output
+   [ 'Apple', 'Mango' ]
+``` 
+</details>
+
