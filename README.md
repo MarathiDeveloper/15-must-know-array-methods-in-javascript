@@ -337,3 +337,19 @@ console.log(arr)
 ``` 
 </details>
 
+## indexof()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let arr = [10,20,30,40,50]
+
+let index = arr.indexOf(40)
+
+console.log(index)
+  //output
+   3
+``` 
+</details>
+
