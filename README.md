@@ -1,6 +1,6 @@
 # Javascript मध्ये हे 15 functions आलेच पाहीजेत.
 
-## JavaScript Array forEach()
+## forEach()
 
 <details><summary><b>Answer</b></summary>
 
@@ -34,7 +34,7 @@ const phones = [
 </details>
 
 
-## JavaScript Array map()
+## map()
 
 <details><summary><b>Answer</b></summary>
 
@@ -65,7 +65,7 @@ const phones = [
 </details>
 
 
-## JavaScript Array filter()
+## filter()
 
 <details><summary><b>Answer</b></summary>
 
@@ -96,8 +96,8 @@ const phones = [
 ``` 
 </details>
 
-## JavaScript Array some()
-
+## some()
+The some() method executes the function once for each array element:
 <details><summary><b>Answer</b></summary>
 
 ```javascript
@@ -125,8 +125,8 @@ const phones = [
 ``` 
 </details>
 
-## JavaScript Array every()
-
+## every()
+The every() method returns true if the function returns true for all elements.
 <details><summary><b>Answer</b></summary>
 
 ```javascript
