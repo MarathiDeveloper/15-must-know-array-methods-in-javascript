@@ -245,3 +245,59 @@ console.log(NewArr)
 ``` 
 </details>
 
+## reduce()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let num = [5, 10, 15]
+
+let sum = num.reduce(function (total, curValue) {
+
+  return total + curValue
+
+}, 0)
+
+console.log(sum)
+  //output
+   30
+``` 
+</details>
+
+## push()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let arr = [5, 10, 15]
+
+let size = arr.push(20)
+
+console.log(size)
+console.log(arr)
+  //output
+   4
+  [ 5, 10, 15, 20 ]
+``` 
+</details>
+
+## pop()
+
+<details><summary><b>Answer</b></summary>
+  
+```javascript
+  
+let arr = [5, 10, 15]
+
+let RemoveElement = arr.pop()
+
+console.log(RemoveElement)
+console.log(arr)
+  //output
+   15
+  [ 5, 10]
+``` 
+</details>
+
